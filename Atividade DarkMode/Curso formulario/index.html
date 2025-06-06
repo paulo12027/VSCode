@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="POST" action="processar.php">
+
+    <div class="header">
+        <h1>Preencha o Formulário</h1>
+        Nome do Curso:
+        <input type="text" name="nome" required>
+        Carga Horária:
+        <input type="number" name="carga_horaria" required>
+        Descrição:
+        <textarea name="descricao" name="descricao" required></textarea>
+
+
+        <input type="submit" value="Cadastrar Curso">
+    </div>
+   </form>
+    
+
+</body>
+</html>
