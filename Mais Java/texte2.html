@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Adivinhação Junina</title>
+  <link rel="stylesheet" href="texte.css">
+</head>
+<body>
+  <div class="ajustes">
+    <img src="https://pbs.twimg.com/media/FV8_TsGWYAM9dtt.jpg:large" alt="Dica" width="500px">
+    <h3>Dica: Um grupo de pessoas que se une para a dança mais típica</h3>
+    <input type="text" id="palavra" placeholder="Digite aqui">
+    <button onclick="verificarPalavra()">Verificar</button>
+  </div>
+
+  <script>
+    function verificarPalavra(){
+      const palavra = document.getElementById("palavra").value.toLowerCase();
+      const palavraCorreta = "quadrilha";
+
+      if (palavra === palavraCorreta) {
+        window.location.href = "correto.html";
+      } else {
+        window.location.href = "errado.html";
+      }
+    }
+  </script>
+</body>
+</html>
