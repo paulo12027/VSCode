@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(156, 156, 156);
+}
+header{
+    background-color: rgb(26, 72, 170);
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    margin: 60px;
+    box-shadow: 1px 0px 2px black;
+}
+nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
