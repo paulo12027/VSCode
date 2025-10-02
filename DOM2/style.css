@@ -1,0 +1,25 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+
+    
+}
+h1{
+    color: orange;
+}
+input{
+    
+    padding: 10px;
+}
+button{
+    background-color: orange;
+
+    border-radius: 10px;
+
+    border-style: none;
+
+    padding: 13px;
+
+    color: white;
+}
